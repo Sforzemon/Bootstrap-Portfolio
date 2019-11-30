@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 section {
     border-top: 2px solid #cccccc;
     width:95%;
+    flex: 1 0 auto;
 }
 /*Aligning the Main page content header with the section below*/
 h1 {
@@ -83,7 +84,7 @@ Start of Portfolio CSS*/
 
 /*This is the tar that is keeping that footer sticky*/
 footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
     left:0;
     width: 100%;
