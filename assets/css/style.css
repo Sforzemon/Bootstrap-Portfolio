@@ -41,17 +41,21 @@ h6 {
     border-bottom: 2px solid #cccccc;
     background-color: #fff;
     padding: 0;
-    color:#888;
+    color:#777777;
 }
 
 .pagecontent {
-    margin: 40px 0 108px 0;
+    margin: 40px 0 40px 0;
     border: 1px solid #ddd;
     background-color: #fff;
     padding: 20px;
 }
 section {
-    border-top: 2px solid #888;
+    border-top: 2px solid #cccccc;
+    width:95%;
+}
+h1 {
+    padding-left: 5%;
 }
 
 hr {
@@ -63,13 +67,14 @@ hr {
 }
 
 .profilepic {
-    padding: 10px;
+    padding: 10px 25px 10px 0px;
     align-content: center;
 }
 
 p {
     text-indent: 4em;
     padding: .5em;
+    color: #777777;
 }
 .lastonpage {
     text-indent: 0em;
