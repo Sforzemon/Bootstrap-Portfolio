@@ -1,74 +1,71 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+<!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Michael Hughes - About Me</title>
   </head>
+<!-- Getting into the good stuff -->
   <body>
-    
-    <div class="header">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="#">Michael Hughes</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+<!-- Navbar code   -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo" href="index.html">Michael Hughes</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<!-- Figuring out ml-auto was litteral hours... -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- Main page content -->
+    <div class="container">
+        <div class="col-12 pagecontent">
+            <div class="row">
+                <h1>About Me</h1>
             </div>
-        </nav>
+            <section class="row max-auto">
+                <div class="col-12 text-justify">
+<!-- Didn't need a comment here, just admiring my face-->
+                        <img src="assets/images/ProfilePic.png" class="w-100 profilepic float-sm-left" alt="My pretty face">
+<!-- Back to business -->
+                        <p>Michael has always been passionate about creating. From a young age he would write stories, compose music, even make very poor attempts at drawing. It was the concept of starting with nothing and having something tangible afterwards that was endlessly fascinating to him and drove him to continue to make whatever he could, song, story, or stick figure.</p>
+                        <p>Having grown up in a household filled with electronics, Michael was well-aware of their use but never delved too deeply into them. He strove to be an individual, unique, like everyone else. Part of this expression of individuality was not following his father's footsteps into a career with electronics. So, when asked what he would study as he got older, he would exclaim to anyone that would listen, “Well, I know it's not computers, that’s for sure, I hate those things.”</p>        
+                        <p>He, instead, continued to pursue his love of music, and when it came time to go to college, that was what he decided to do. Study music. He studied composition and kept his creative outlets brimming. However, a degree in music, without being combined with a certification in teaching is not a very useful means to getting a new job, and so Michael turned towards his old nemesis, computers.</p>
+                </div>
+                <div class="col-12 text-justify">
+                    <p>Luckily, while growing up traversing jungles of networking cables and skirting around the looming towers of bitcoin miners he had picked up a fair amount of knowledge about the workings of these devices. One would assume this happened via osmosis. He was fortunate enough to obtain a position in IT for a nearby school district. This opportunity allowed him to settle down, get married, rescue a dog, and even buy a home. You could say, by all accounts, things were going pretty well. Unfortunately, this position doesn’t carry with it the level of creativity that he yearns for. After doing a fair amount of research, and trying his hand at it to see if he liked it, it seems that web/software development does.</p>
+                </div>
+                <div class="col-12">
+                    <p class="lastonpage">And so, with the wonderful sense of irony that is his life, a new adventure begins.</p>
+                </div>
+            </section>
+        </div>        
     </div>
-    <div class="container mx-auto">
-        <div class="row">
-            <h1>About Me</h1>
-        </div>
-        <div class="row">
-            <hr class="hr-primary">
-        </div>
-        <div class="row">
-            <div class="col-md-3 col-sm-12">
-                <div>
-                    <img src="assets/images/ProfilePic.png" class="w-100" alt="My pretty face">
-                </div>
-            </div>
-            <div class="col-md-9 col-sm-12 my-auto">
-                <div class="row">
-                    <p>Michael has always been passionate about creating. From a young age he would write stories, compose music, even make very poor attempts at drawing. It was the concept of starting with nothing and having something tangible afterwards that was endlessly fascinating to him and drove him to continue to make whatever he could, song, story, or stick figure.</p>
-                </div>
-                <div class="row">
-                    <p>Having grown up in a household filled with electronics, Michael was well-aware of their use but never delved too deeply into them. He strove to be an individual, unique, like everyone else. Part of this expression of individuality was not following his father's footsteps into a career with electronics. So, when asked what he would study as he got older, he would exclaim to anyone that would listen, “Well, I know it's not computers, that’s for sure, I hate those things.”</p>
-                </div>
-                <div class="row">
-                    <p>He, instead, continued to pursue his love of music, and when it came time to go to college, that was what he decided to do. Study music. He studied composition and kept his creative outlets brimming. However, a degree in music, without being combined with a certification in teaching is not a very useful means to getting a new job, and so Michael turned towards his old nemesis, computers.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-                <p>Luckily, while growing up traversing jungles of networking cables and skirting around the looming towers of bitcoin miners he had picked up a fair amount of knowledge about the workings of these devices. One would assume this happened via osmosis. He was fortunate enough to obtain a position in IT for a nearby school district. This opportunity allowed him to settle down, get married, rescue a dog, and even buy a home. You could say, by all accounts, things were going pretty well. Unfortunately, this position doesn’t carry with it the level of creativity that he yearns for. After doing a fair amount of research, and trying his hand at it to see if he liked it, it seems that web/software development does.</p>
-        </div>
-        <div class="text-center">
-            <p>And so, with the wonderful sense of irony that is his life, a new adventure begins.</p>
-        </div>
-    </div>
-    <footer class="fluid-bottom text-center align-text-bottom">
-        <span class="align-text-bottom"><small>Copyright ©</small></span>
+<!-- Start of ridiculous sticky footer -->
+    <footer class="footer">
+            Copyright ©
     </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

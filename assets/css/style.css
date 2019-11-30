@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    background-image: url("../images/hexellence.png");
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #4aaaa5;
+}
+/* Taken from Bootstrap CSS file so I can alter link colors...*/
+.navbar-light .navbar-brand{color:#ffffff}
+.navbar-light ,.navbar-light .navbar-brand:hover{color:#777777}
+.navbar-light .navbar-nav .nav-link{color:#777777}
+.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{color:#4aabb4}
+.navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link{color:#4aaaa5}
+.navbar-light .navbar-toggler{color:#4aaaa5;border-color:rgba(0,0,0,.1)}
+.navbar-light .navbar-text{color:#777777}
+.navbar-light .navbar-text a{color:#777777}
+/* Done harvensting from bootstraps files */
+
+.navbar-brand {
+    padding: 13px 20px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    background-color: #4aaaa5;
+}
+.navbar {
+    border-bottom: 2px solid #cccccc;
+    background-color: #fff;
+    padding: 0;
+    color:#888;
+}
+
+.pagecontent {
+    margin: 40px 0 108px 0;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+}
+section {
+    border-top: 2px solid #888;
+}
+
+hr {
+      padding-top:2px;
+}
+  
+.header {
+    width: 100%;
+}
+
+.profilepic {
+    padding: 10px;
+    align-content: center;
+}
+
+p {
+    text-indent: 4em;
+    padding: .5em;
+}
+.lastonpage {
+    text-indent: 0em;
+    text-align: center;
+}
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: -30px;
+    height: 60px;
+    color: #ccc;
+    text-align: center;
+    vertical-align: text-bottom;
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    margin-top: 10px;
+    flex-shrink:0;
+}
+@media screen and (min-width: 800px) {
+    .profilepic {
+      max-width: 300px;/*Limit max-width to 600px*/
+      margin: 0 auto;/*Centering this container*/
+    }
+  }
