@@ -46,8 +46,24 @@
                 <h1>Contact</h1>
             </div>
             <section class="row mx-auto">
-                <div class="col-12 text-justify">
-
+                <div class="col-12">
+<!-- Beginning of Contact form -->
+                    <form>
+                        <div class="row form-group">
+                            <label for="nameInput">Name</label>
+                            <input type="text" class="form-control" placeholder="John Smith">
+                        </div>
+                        <div class="row form-group">
+                            <label for="emailInput">Email</label>
+                            <input type="email" class="form-control" placeholder="example@gmail.com">
+                        </div>
+                        <div class="row form-group">
+                            <label for="messageInput">Message</label>
+                            <textarea class="form-control" rows="10"></textarea>
+                        </div>
+<!-- Button code (copied the css files for the btn-primary so that I could apply the same criteria to btn-colors) -->
+                        <button type="submit" class="btn btn-lg btn-colors">Submit</button>
+                    </form>
                 </div>
             </section>
         </div>        

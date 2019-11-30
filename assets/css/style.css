@@ -51,8 +51,9 @@ section {
 }
 /*Aligning the Main page content header with the section below*/
 h1 {
-    padding-left: 5%;
+    padding-left: 4%;
 }
+/*Start of about me specific CSS*/
 /*Gotta keep the text from obscuring my face*/
 .profilepic {
     padding: 10px 25px 10px 0px;
@@ -68,6 +69,18 @@ p {
     text-indent: 0em;
     text-align: center;
 }
+/*End of About Me Specific CSS
+Start of Contact Specific CSS*/
+form, .form-group {
+    padding-top: 10px;
+}
+/*copied from Bootstrap CSS file so I could make my custom button*/
+.btn-colors{color:#ffffff;background-color:#4aaaa5;border-color:#4aaaa5aa;}
+.btn-colors:hover{color:#4aaaa5;background-color:#ffffff;border-color:#4aaaa5aa}
+.btn-colors.focus,.btn-colors:focus{color:#fff;background-color:#4aaaa5;border-color:#4aaaa5aa;box-shadow:0 0 0 .2rem #4aaaa54a}
+/*End of Contact Specific CSS
+Start of Portfolio CSS*/
+
 /*This is the tar that is keeping that footer sticky*/
 footer {
     position: relative;
