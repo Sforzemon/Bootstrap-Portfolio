@@ -79,6 +79,9 @@ form, .form-group {
 .btn-colors{color:#ffffff;background-color:#4aaaa5;border-color:#4aaaa5aa;}
 .btn-colors:hover{color:#4aaaa5;background-color:#ffffff;border-color:#4aaaa5aa}
 .btn-colors.focus,.btn-colors:focus{color:#fff;background-color:#4aaaa5;border-color:#4aaaa5aa;box-shadow:0 0 0 .2rem #4aaaa54a}
+button {
+    margin-left: -15px;
+}
 /*End of Contact Specific CSS
 Start of Portfolio CSS*/
 
