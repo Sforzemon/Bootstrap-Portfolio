@@ -12,33 +12,54 @@
     <title>Michael Hughes - Portfolio</title>
   </head>
 <!-- Getting into the good stuff -->
-  <body>
-<!-- Navbar code   -->
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light">
-        <div class="container">
-          <a class="navbar-brand logo" href="index.html">Michael Hughes</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <body>
+<!-- Navbar code - This navebar will hide and expand the brand logo to 100% width
+    on an extram small screen.   -->
+        <nav class="navbar sticky-top navbar-expand navbar-light d-inline">
+            <div class="container">
+                <a class="navbar-brand logo d-none d-sm-inline" href="index.html">Michael Hughes</a>
+<!-- The above Brand is hidden at xs while the below brand is hidden on all other instances. -->          
+                <a class="navbar-brand logo mx-auto text-center d-inline flex-fill d-sm-none" href="index.html">Michael Hughes</a>
+                <div class="d-none d-sm-inline" id="navbarSupportedContent">
 <!-- Figuring out ml-auto was litteral hours... -->
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
 <!-- Adding in vertical dividers that wont show on small or xs screens -->
-              <li class="mt-auto mb-auto d-none d-md-block"> | </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="mt-auto mb-auto d-none d-md-block"> | </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+                        <li class="mt-auto mb-auto d-block"> | </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="mt-auto mb-auto d-block"> | </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!-- Second Navbar code  This whole section is just for the xs small screen view
+        so that my nav links appear underneath my name.-->
+        <nav class="navbar d-sm-none d-inline sticky-top navbar-expand navbar-light d-inline">
+            <div class="container">
+                <div class="mx-auto py-2" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="mt-auto mb-auto d-block"> | </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="mt-auto mb-auto d-block"> | </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 <!-- Main page content -->
     <div class="container">
         <div class="col-12 pagecontent">
