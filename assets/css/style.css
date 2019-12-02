@@ -84,10 +84,36 @@ button {
 }
 /*End of Contact Specific CSS
 Start of Portfolio CSS*/
-
+.portfolio-img {
+    position: relative;
+    width: 250px;
+    height: 175px;
+    display: block;
+  
+}
+.project-name {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    top: 60%;
+    width: 250px;
+    line-height: 3em;
+    text-align: center;
+    margin: auto;
+}
+.portfolio-style {
+    padding: 15px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    box-align: center;
+    align-items: center;
+    box-pack: center;
+    justify-content: center;
+}
 /*This is the tar that is keeping that footer sticky*/
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left:0;
     width: 100%;
